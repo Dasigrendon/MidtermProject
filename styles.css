@@ -51,7 +51,7 @@ body{
     color: white;
     height: auto;
     margin: auto;
-    width: 50%;
+    width: 60%;
 }
 .pic{
     display: block;
@@ -133,6 +133,13 @@ body{
     text-align: center;
     font-size: x-small;
 }
+.personale,.he,.ha,.ho{
+    font-weight: bold;
+}
+.py1:hover{
+    opacity: 0.8;
+}
+
 .resume{
     color: black;
     text-align: center;
@@ -142,17 +149,21 @@ body{
     font-weight: bold;
     text-align: center;
 }
-ol li{
+ol, li{
     list-style-type: none;
     margin: auto;
+}
+.conta{
+    margin: auto;
+    width: 70%;
 }
 .list{
     display: inline;
     margin: auto;
 }
-.container{
+.container-fluid{
     margin: auto;
-    width: 90%;
+    width: 70%;
 }
 .row{
     color: black;
@@ -167,20 +178,37 @@ ol li{
 .fb{
     height: 50px;
     width: 50px;
-    margin-right: 30px;
+}
+.yt{
+    height: 50px;
+    width: 50px;
+}
+
+.yt:hover{
+    border: 2px solid transparent;
+}
+.fb:hover{
+    border: 2px solid transparent;
+}
+.how{
+    margin: auto;
+}
+.ig:hover{
+    border: 2px solid transparent;
+}
+.tw:hover{
+    border: 2px solid transparent;
 }
 .ig{
     height: 53px;
     width: 53px;
-    margin-right: 30px;
+    border-radius: 15px;
 }
 .tw{
     height: 50px;
     width: 50px;
 }
-.follow{
-    text-align: center;
-}
+
 p{
     color: black;
     text-align: center;
