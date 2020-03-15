@@ -1,0 +1,294 @@
+html{
+    scroll-behavior: smooth;
+}
+body{
+    background-color: #c0ded9;
+}
+.navbar{
+    height: 50px;
+    background:#3b3a30;
+    position: fixed;
+    width: 100%;
+    z-index: 9999;
+
+}
+.menu{
+    margin: auto;
+}
+.navi{
+    color: white;
+    font-size: medium;
+    font-family: 'Candara';
+    padding-left: 10px;
+    padding-right: 10px;
+}
+.navi:hover{
+    text-decoration: none;
+    color: rgb(173, 173, 173);
+}
+#jumbotron1{
+    background: transparent;
+    font-family: 'Candara';
+    color: white;
+    height: auto;
+}
+#jumbotron2{
+    background: transparent;
+    font-family: 'Candara';
+    color: white;
+    height: auto;
+}
+#jumbotron3{
+    background: transparent;
+    font-family: 'Candara';
+    color: white;
+    height: auto;
+    margin: auto;
+}
+#jumbotron4{
+    background: transparent;
+    font-family: 'Candara';
+    color: white;
+    height: auto;
+    margin: auto;
+    width: 50%;
+}
+.pic{
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    height: 210px;
+    width: 180px;
+    border-radius: 50%;
+}
+.header{
+    text-align: center;
+    color: black;
+}
+.buttoncon{
+    text-align: center;
+}
+.button{
+    font-family: 'Candara';
+    background: #3b3a30;
+    border-radius: 15px;
+    color: white;
+    padding: 15px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 20px;
+    border: none;
+    outline: none;
+    box-shadow: 0 9px #999;
+    
+}
+.button:focus{
+    border: none;
+    outline: none;
+}
+.button:active{
+    outline: none;
+    border: none;
+    font-family: 'Candara';
+    border-radius: 15px;
+    padding: 15px 32px;
+    text-align: center;
+    display: inline-block;
+    font-size: 20px;
+    box-shadow: 0 5px #666;
+    transform: translateY(4px);
+}
+.button:hover{
+    background: black;
+    text-decoration: none;
+    color: white;
+}
+
+#contain{
+    text-align: center;
+    margin: auto;
+    background: #eaece5;
+    border-radius: 15px;
+    height: auto;
+    width: 70%;
+}
+.about{
+    margin-left: 15%;
+    margin-right: 15%;
+    color: black;
+}
+
+.foot{
+    background: #3b3a30;
+}
+.line2{
+    width: 90%;
+    border: 0.5px solid white;
+}
+.message1{
+    color: white;
+    margin-left: 20%;
+    margin-right: 20%;
+    text-align: center;
+    font-size: x-small;
+}
+.resume{
+    color: black;
+    text-align: center;
+}
+.personal{
+    color: black;
+    font-weight: bold;
+    text-align: center;
+}
+ol li{
+    list-style-type: none;
+    margin: auto;
+}
+.list{
+    display: inline;
+    margin: auto;
+}
+.container{
+    margin: auto;
+    width: 90%;
+}
+.row{
+    color: black;
+}
+.obj{
+    text-align: left;
+}
+.contact{
+    text-align: center;
+    color: black;
+}
+.fb{
+    height: 50px;
+    width: 50px;
+    margin-right: 30px;
+}
+.ig{
+    height: 53px;
+    width: 53px;
+    margin-right: 30px;
+}
+.tw{
+    height: 50px;
+    width: 50px;
+}
+.follow{
+    text-align: center;
+}
+p{
+    color: black;
+    text-align: center;
+}
+.form{
+    color: black;
+    text-align: center;
+}
+.buttonsend{
+    text-align: center;
+}
+.buttonemail{
+    font-family: 'Candara';
+    background: #3b3a30;
+    border-radius: 15px;
+    color: white;
+    padding: 15px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 20px;
+    border: none;
+    outline: none;
+    box-shadow: 0 9px #999;
+    
+}
+.buttonemail:focus{
+    border: none;
+    outline: none;
+}
+.buttonemail:active{
+    outline: none;
+    border: none;
+    font-family: 'Candara';
+    border-radius: 15px;
+    padding: 15px 32px;
+    text-align: center;
+    display: inline-block;
+    font-size: 20px;
+    box-shadow: 0 5px #666;
+    transform: translateY(4px);
+}
+.buttonemail:hover{
+    background: black;
+}
+.portfolio{
+    color: black;
+    text-align: center;
+}
+.quote{
+    color: black;
+    text-align: center;
+}
+#python{
+    width: 40%;
+}
+#py{
+    margin: auto;
+}
+.gallerytitle{
+    color: black;
+    text-align: center;
+}
+.gallery:hover {
+    border: 1px solid #777;
+    border-radius: 5px;
+    width: 302px;
+    background: black;
+    color: white;
+}
+.gallery{
+    border: 1px solid #777;
+    width: 302px;
+    height: auto;
+    color: black;
+    text-align: center;
+    border-radius: 5px;
+    background: white;
+}
+.gallery2:hover {
+    border: 1px solid #777;
+    border-radius: 5px;
+    width: 302px;
+    background: black;
+    color: white;
+}
+.gallery2{
+    border: 1px solid #777;
+    width: 302px;
+    height: auto;
+    color: black;
+    text-align: center;
+    border-radius: 5px;
+    background: white;
+}
+.gallery3:hover {
+    border: 1px solid #777;
+    border-radius: 5px;
+    width: 302px;
+    background: black;
+    color: white;
+}
+.gallery3{
+    border: 1px solid #777;
+    width: 302px;
+    height: auto;
+    color: black;
+    text-align: center;
+    border-radius: 5px;
+    background: white;
+}
